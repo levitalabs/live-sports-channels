@@ -25,6 +25,7 @@ jobs:
       - name: Generar channels.json
         run: |
           mkdir -p public
+          cp -r site/. public/
           python3 build_channels.py public/channels.json
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

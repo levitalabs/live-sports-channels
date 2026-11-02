@@ -4,6 +4,10 @@ Servicio que publica qué canal de España emite cada partido, para la app Live 
 
 Cada 3 horas, GitHub Actions descarga la guía de TV de [EPG_dobleM](https://github.com/davidmuma/EPG_dobleM), se queda con las emisiones deportivas (canal, hora, competición, equipos o jugadores y si es en directo) y publica `channels.json` en GitHub Pages.
 
+## Páginas
+
+`site/` se publica tal cual junto a `channels.json`. Incluye la política de privacidad de la app: https://levitalabs.github.io/live-sports-channels/privacy.html
+
 ## Probar en local
 
 ```bash
