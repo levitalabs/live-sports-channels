@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extrae las emisiones deportivas de la guía de TV de España y genera channels.json para la app Live Sports.
+"""Extrae las emisiones deportivas de la guía de TV de España y genera channels.json para la app Onscreen Sports.
 
 Fuente: guía XMLTV de EPG_dobleM (https://github.com/davidmuma/EPG_dobleM), con la programación
 de los canales españoles (Movistar Plus+, DAZN, Eurosport, Teledeporte, Red Bull TV...).
